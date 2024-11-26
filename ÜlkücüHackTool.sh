@@ -248,7 +248,7 @@ echo -e "${blink}${lightgreen}  |$tp ${cyan}Instagram           $white":" $red 2
 echo -e "${blink}${lightgreen}  ---------------------------------------------------------$tp\n"
 echo "  ~~~~~~~~~~~~~~~~~~~~~ ÜlkücüHackTeam~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo ""
-        echo " [1] ✔ Inshackle              [2] ✔ Kickthemout" 
+        echo " [1] ✔ Gmail-hack          [2] ✔ Kickthemout" 
         echo " [3] ✔ Zphisher               [4] ✔ UserRecon" 
         echo " [5] ✔ Instashell             [6] ✔ Cupp" 
         echo " [7] ✔ SpamWa                 [8] ✔ Ip-Tracer" 
@@ -266,8 +266,8 @@ echo "  ~~~~~~~~~~~~~~~~~~~~~ ÜlkücüHackTeam~~~~~~~~~~~~~~~~~~~~~~~~~"
             else
                 clear
                 cat banners/bcbanner  
-                echo -e $red "[0] Inshackle İndiriliyor "
-                git clone https://github.com/cyberkallan/inshackle-bot > /dev/null 2>&1
+                echo -e $red "[0] Gmail Hackİndiriliyor "
+                git clone https://github.com/2w3nzy/Gmail-attacker.git > /dev/null 2>&1
                 spinlong
                 echo -e $red "[1] Inshackle Kuruldu "
                 cd inshackle-bot
@@ -607,3 +607,4 @@ done
                 ;;
         esac
 done
+ne

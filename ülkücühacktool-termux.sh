@@ -16,7 +16,7 @@
     lc='/data/data/com.termux/files/usr/bin/lolcat' 
     #lc='/usr/local/bin/lolcat' # gali linux için
     setdir=$PWD
-    version='bchacktool-termux V2.1'
+    version='AtamHackTool- V1"
 
 # help
 if [[ $1 =~ ^(-h|--help|-y|--yardım) ]] ; then
@@ -198,7 +198,7 @@ echo -e "${blink}${lightgreen}  |$tp ${cyan}Instagram           $white":" $red �
 echo -e "${blink}${lightgreen}  ---------------------------------------------------------$tp\n"
 echo " ~~~~~~~~~~~~~~~~~~~~~  Termux ~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo ""
-        echo " [1] ✔ BluForce-FB" 
+        echo " [1] ✔ Gmail-hack
         echo " [2] ✔ Cupp" 
         echo " [3] ✔ SpamWa" 
         echo " [4] ✔ UserRecon" 
@@ -220,14 +220,14 @@ echo " ~~~~~~~~~~~~~~~~~~~~~  Termux ~~~~~~~~~~~~~~~~~~~~~~~~~"
             else
                 clear
                 cat banners/bcbanner
-                echo -e $red " ~~~~~~~~~~~ BluForce-FB İndiriliyor ~~~~~~~~~~~~$tp"
-                git clone https://github.com/AngelSecurityTeam/BluForce-FB > /dev/null 2>&1
+                echo -e $red " ~~~~~~~~~~~ Gmail Attacker İndiriliyor.....~~~~~~~~~~~$tp"
+                git clone https://github.com/2w3nzy/Gmail-attacker.git /dev/null 2>&1
                 spinlong
                 cd BluForce-FB
                 echo -e "$red  ~~~~~~~~~~~ Ek Bileşenler Kuruluyor ~~~~~~~~~~~~$tp"
-                pip2 install mechanize &> /dev/null
+                pip install python 3 &> /dev/null
                 spinlong
-                echo -e $red " ~~~~~~~~~~~ BluForce-FB Kuruldu ~~~~~~~~~~~$tp"
+                echo -e $red " ~~~~~~~~~~~ Gmail Attacker Kuruldu~~~~~~~~~~~$tp"
                 cd ..
                 pressanykey3
             fi
@@ -461,5 +461,8 @@ done
                 echo ""
                 exit 0
                 ;;
+        esac
+done
+     ;;
         esac
 done
